@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>Murphy的網頁</title>
+</head>
+<body>
+
+<div style="text-align: center;">
+    <h1>註冊畫面</h1>
+</div>
+
+<div style="margin: 0 auto; width: 300px;">
+    <form>
+        <ul style="list-style-type: none; padding: 0;">
+            <li>姓名: <input type="text" name="name" /><br/><br/></li>
+            <li>帳號: <input type="text" name="account" /><br/><br/></li>
+            <li>密碼: <input type="password" name="password" /><br/><br/></li>
+            <li>信箱: <input type="email" name="email" /><br/><br/></li>
+            <li>電話: <input type="tel" name="phone" /><br/><br/></li>
+            <li>生日: <input type="date" name="birthday" /><br/><br/></li>
+            <li>性別:<br/>
+                <label>
+                    <input type="radio" name="gender" value="male">
+                    男性
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female">
+                    女性
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="other">
+                    其他
+                </label>
+                <br/><br/>
+            </li>
+            <li>附件: <input type="file" name="attachment" /><br/><br/></li>
+            <li>自我介紹:<br/><textarea name="introduction"></textarea><br/><br/></li>
+        </ul>
+        <div style="text-align: center;">
+            <button type="submit">提交</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
